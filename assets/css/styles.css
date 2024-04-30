@@ -1,8 +1,8 @@
 /* FONTS ARE LICENSED WITH CREATIVE MARKET, NOT FREE TO USE */
 @font-face {
     font-family: 'TAN - MEMORIES';
-    src: url('TANMEMORIES-Italic.woff2') format('woff2'),
-        url('TANMEMORIES-Italic.woff') format('woff');
+    src: url('../fonts/TANMEMORIES-Regular.woff2') format('woff2'),
+        url('../fonts/TANMEMORIES-Regular.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'TAN - AEGEAN';
-    src: url('TANAEGEAN-Regular.woff2') format('woff2'),
-        url('TANAEGEAN-Regular.woff') format('woff');
+    src: url('../fonts/TANAEGEAN-Regular.woff2') format('woff2'),
+        url('../fonts/TANAEGEAN-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'TAN - MEMORIES';
-    src: url('TANMEMORIES-Regular.woff2') format('woff2'),
-        url('TANMEMORIES-Regular.woff') format('woff');
+    src: url('../fonts/TANMEMORIES-Regular.woff2') format('woff2'),
+        url('../fonts/TANMEMORIES-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'TAN - MERINGUE';
-    src: url('TAN.woff2') format('woff2'),
-        url('TAN.woff') format('woff');
+    src: url('../fonts/TAN.woff2') format('woff2'),
+        url('../fonts/TAN.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -74,7 +74,7 @@
 html {
     height: 100%;
     background-color: #2E3015;
-    background-image: url('../images/background4.png');
+    background-image: url('../images/Background4.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
