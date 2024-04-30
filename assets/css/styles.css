@@ -1,0 +1,211 @@
+/* FONTS ARE LICENSED WITH CREATIVE MARKET, NOT FREE TO USE */
+@font-face {
+    font-family: 'TAN - MEMORIES';
+    src: url('TANMEMORIES-Italic.woff2') format('woff2'),
+        url('TANMEMORIES-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TAN - AEGEAN';
+    src: url('TANAEGEAN-Regular.woff2') format('woff2'),
+        url('TANAEGEAN-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TAN - MEMORIES';
+    src: url('TANMEMORIES-Regular.woff2') format('woff2'),
+        url('TANMEMORIES-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TAN - MERINGUE';
+    src: url('TAN.woff2') format('woff2'),
+        url('TAN.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TAN - PARADISO';
+    src: url('../fonts/TANPARADISO.woff2') format('woff2'),
+        url('../fonts/TANPARADISO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TAN - MON CHERI';
+    src: url('../fonts/TAN.woff2') format('woff2'),
+        url('../fonts/TAN.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TAN - WHISTLING';
+    src: url('../fonts/TANWHISTLING-Regular.woff2') format('woff2'),
+        url('../fonts/TANWHISTLING-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TAN - OFFICIAL';
+    src: url('../fonts/TANOFFICIAL-Regular.woff2') format('woff2'),
+        url('../fonts/TANOFFICIAL-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+    background-color: #2E3015;
+    background-image: url('../images/background4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.main-body {
+    height: 100%;
+    display: flex;
+}
+.col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.col1 {
+    height: 75%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.col2 {
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.col1text {
+    color: white;
+    width: 100%;
+    text-align: left;
+    margin-left: 50%;
+}
+.main-title {
+    font-size: 6rem;
+    color: white;
+    font-family: 'TAN - WHISTLING'; 
+}
+.main-subtitle {
+    font-size: 1.25rem;
+    font-family: 'TAN - OFFICIAL';
+}
+.main-bio {
+    font-size: 1.25rem;
+    font-family: 'TAN - MEMORIES';
+}
+.nav-item {
+    font-family: 'TAN - PARADISO';
+    text-decoration: none;
+    color: white;
+    font-size: 7rem;
+    margin-top: 1rem;
+    margin-right: 25%;
+}
+.nav-item:hover {
+    font-style: italic;
+}
+
+/*  */
+
+.sub-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+img {
+    width: 200px;
+}
+.project-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-text {
+    color: white;
+    font-size: 1.25rem;
+}
+.alt-title {
+    margin-left: 1%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+.title {
+    font-size: 6rem;
+    color: white;
+    font-family: 'TAN - PARADISO'; 
+}
+.title:hover {
+    font-family: 'TAN - WHISTLING'; 
+    cursor: pointer;
+}
+header {
+    padding-top: 1rem;
+    flex: 1 0 10%;
+}
+
+/* animation */
+footer {
+    align-self: center;
+    flex-shrink: 0;
+    width: 83%;
+    padding-bottom: 1rem;
+}
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    font-family: "TAN - MEMORIES";
+    animation: marquee 25s linear infinite;
+  }
+  
+  .marquee p {
+    display: inline-block;
+    color: white;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
